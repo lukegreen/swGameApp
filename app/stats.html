@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		<title>Skinwalkers</title>
+		<!-- Include jQuery Mobile stylesheets -->
+		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+		<link rel="stylesheet" href="styles/main.css">
+		<!-- Include the jQuery library -->
+		<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+		<!-- Include the jQuery Mobile library -->
+		<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+	</head>
+
+	<body>
+		<div data-role="page" data-theme="b">
+			<div data-role="header" data-position="inline">
+				<h1>Skinwalkers</h1>
+				<div data-role="navbar">
+					<ul>
+						<li><a href="index.html" data-icon="home">Home</a></li>
+						<li><a href="stats.html" data-icon="star" class="ui-btn-active">Stats</a></li>
+						<li><a href="scenarios.html" data-icon="grid">Scenarios</a></li>
+						<li><a href="items.html" data-icon="search">Items</a></li>
+						<li><a href="about.html" data-icon="gear">About</a></li>
+					</ul>
+				</div>
+
+				<div data-role="fieldcontain">
+					<label for="slider" id="sliderLabel">Animal Bond</label>
+					<input type="range" name="slider" id="slider" value="50" min="0" max="100" data-highlight="true"  />
+				</div>
+
+			</div>
+			<div data-role="content" data-theme="b">
+
+				<h2>Character Name</h2>
+				<h3>Character Type</h3>
+
+				<a href="" data-role="button" data-theme="a" data-icon="star">Attack</a>
+				<a href="" data-role="button" data-theme="b" data-icon="star">Defense</a>
+				<a href="" data-role="button" data-theme="c" data-icon="star">Agility</a>
+				<a href="" data-role="button" data-theme="d" data-icon="star">Craft</a>
+				<a href="" data-role="button" data-theme="e" data-icon="star">Health</a>
+			</div>
+
+			<div data-role="fieldcontain">
+					<fieldset data-role="controlgroup">
+						<legend>Choose a clan:</legend>
+					<input type="radio" name="radio-choice-1" id="radio-choice-1" value="choice-1" checked="checked" />
+					<label for="radio-choice-1">Bear</label>
+
+					<input type="radio" name="radio-choice-1" id="radio-choice-2" value="choice-2"  />
+					<label for="radio-choice-2">Wolf</label>
+
+					<input type="radio" name="radio-choice-1" id="radio-choice-3" value="choice-3"  />
+					<label for="radio-choice-3">Stag</label>
+
+					<input type="radio" name="radio-choice-1" id="radio-choice-4" value="choice-4"  />
+					<label for="radio-choice-4">Owl</label>
+					</fieldset>
+			</div>
+		</div>
+	</body>
+</html>
