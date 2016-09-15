@@ -1,0 +1,91 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		<title>Skinwalkers</title>
+		<!-- Include jQuery Mobile stylesheets -->
+		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+		<!-- Include the jQuery library -->
+		<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+		<!-- Include the jQuery Mobile library -->
+		<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+	</head>
+
+	<body>
+		<div data-role="page" data-theme="b">
+			<div data-role="header" data-position="inline">
+				<h1>Skinwalkers</h1>
+				<div data-role="navbar">
+					<ul>
+						<li><a href="index.html" data-icon="home">Home</a></li>
+						<li><a href="stats.html" data-icon="star">Stats</a></li>
+						<li><a href="scenarios.html" data-icon="grid">Scenarios</a></li>
+						<li><a href="items.html" data-icon="search">Items</a></li>
+						<li><a href="about.html" data-icon="gear" class="ui-btn-active">About</a></li>
+					</ul>
+				</div>
+			</div>
+			<div data-role="content" data-theme="b">
+
+				<h2>About</h2>
+
+				<form action="#" method="get">
+
+					<p>Skinwalkers is the latest game concept from Zeroic Games and designer, Taran Kratz.  This mobile app represents the second draft of the application companion for the Skinwalkers game.</p>
+
+					<p>This application was bootstrapped with the Yeoman workflow, the jQuery Mobile framework, and HTML5 Boilerplate.</p>
+
+					<p><em>For the latest news and updates about Skinwalkers and other Zeroic titles, sign up for our email list below:</em></p>
+
+					<div data-role="fieldcontain">
+						<label for="name">Name:</label>
+						<input type="text" name="name" id="name" value="">
+					</div>
+
+					<div data-role="fieldcontain">
+						<label for="textarea">Email:</label>
+						<textarea cols="40" rows="8" name="textarea" id="textarea"></textarea>
+					</div>
+
+					<h2>Settings</h2>
+
+					<div data-role="fieldcontain">
+						<label for="slider2">Switch App Theme:</label>
+						<select name="slider2" id="slider2" data-role="slider">
+							<option value="off">Night</option>
+							<option value="on">Day</option>
+						</select>
+					</div>
+
+					<div data-role="fieldcontain">
+						<fieldset data-role="controlgroup" data-type="horizontal">
+					    	<legend>Font styling:</legend>
+					    	<input type="checkbox" name="checkbox-6" id="checkbox-6" class="custom">
+							<label for="checkbox-6">b</label>
+
+							<input type="checkbox" name="checkbox-7" id="checkbox-7" class="custom">
+							<label for="checkbox-7"><em>i</em></label>
+
+							<input type="checkbox" name="checkbox-8" id="checkbox-8" class="custom">
+							<label for="checkbox-8">u</label>
+					    </fieldset>
+					</div>
+
+					<div data-role="fieldcontain">
+					    <fieldset data-role="controlgroup" data-type="horizontal">
+							<legend>Layout view:</legend>
+							<input type="radio" name="radio-choice-b" id="radio-choice-c" value="on" checked="checked">
+							<label for="radio-choice-c">List</label>
+							<input type="radio" name="radio-choice-b" id="radio-choice-d" value="off">
+							<label for="radio-choice-d">Grid</label>
+							<input type="radio" name="radio-choice-b" id="radio-choice-e" value="other">
+							<label for="radio-choice-e">Gallery</label>
+					    </fieldset>
+					</div>
+
+				</form>
+			</div>
+		</div>
+	</body>
+</html>
